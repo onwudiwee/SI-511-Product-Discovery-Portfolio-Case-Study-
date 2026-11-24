@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <style>
     .rec-lead{max-width:76ch;font-size:1.2rem;color:#53675a}.rec-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:30px 0}.rec-card{background:#e5eadf;border-radius:16px;padding:25px}.rec-card p{margin-bottom:0}.rec-card small{font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#556a58}.rec-artifact{margin:35px 0}.rec-artifact img{width:100%;height:auto;border:1px solid #d9dbd3;border-radius:12px}.rec-artifact figcaption{margin-top:12px;font-size:.85rem;color:#657168}.rec-table{width:100%;border-collapse:collapse;margin:28px 0}.rec-table th,.rec-table td{padding:15px 12px;border-bottom:1px solid #d9dbd3;text-align:left;vertical-align:top}.rec-table th{color:#526558}.rec-steps{display:grid;gap:18px;margin:30px 0}.rec-step{border-left:3px solid #83986c;padding:9px 0 9px 24px}.rec-step h3{margin:0 0 8px}.rec-step p{margin:0}.rec-pending{border:1px dashed #a3b39b;background:#eef0e9;padding:24px;border-radius:15px;margin:30px 0}.rec-links{display:flex;flex-wrap:wrap;gap:18px;margin:24px 0}.rec-note{color:#53675a;font-size:.93rem}.rec-highlight{font-size:1.3rem;font-weight:700;max-width:65ch} .rec-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:28px 0}.rec-metric{border:1px solid #d5dccf;background:#edf1e7;border-radius:14px;padding:19px}.rec-metric strong{display:block;font:800 clamp(1.6rem,2.5vw,2.7rem) Manrope,sans-serif;line-height:1.15}.rec-metric small{display:block;font-size:.85rem;color:#57665b;margin-top:8px}.rec-evidence{border-left:3px solid #83986c;padding-left:19px;margin:25px 0}.rec-evidence h3{margin-bottom:7px}.rec-alert{border:1px solid #e2d3a5;background:#faf4df;border-radius:14px;padding:20px;margin:25px 0}@media(max-width:760px){.rec-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.rec-cards{grid-template-columns:1fr}.rec-table{display:block;overflow-x:auto}}
+    .rec-feature-artifact{margin:48px 0 54px;padding:32px 0;border-top:1px solid #d9dbd3;border-bottom:1px solid #d9dbd3}.rec-feature-artifact h3{font-size:clamp(1.4rem,2.5vw,2.25rem);margin:8px 0 15px}.rec-feature-artifact .rec-artifact{margin:26px 0 16px}.rec-feature-artifact .rec-artifact img{width:100%;object-fit:contain;background:#fff;box-shadow:0 5px 24px #1e29250d}.rec-feature-artifact a:not(.pill-link){font-weight:700}.rec-role{margin:30px 0 10px;padding:24px 28px;border-radius:16px;background:#e9eee3;border-left:4px solid #82966b}.rec-role .eyebrow{margin-bottom:8px}.rec-role p:last-child{margin-bottom:0}.rec-feasibility{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:25px 0}.rec-feasibility>div{background:#e9eee3;padding:20px;border-radius:14px}.rec-feasibility span{font-size:.95rem}.rec-feasibility p{font-size:.91rem;margin:10px 0 0}.rec-demo-links{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin:30px 0 16px}.rec-secondary-link{font-weight:700}@media(max-width:760px){.rec-feasibility{grid-template-columns:1fr}.rec-feature-artifact{padding:25px 0}.rec-role{padding:20px}}
   </style>
 </head>
 <body>
@@ -25,7 +26,11 @@
 <div><span>Timeline</span><strong>Fall 2026, SI 511</strong></div>
 <div><span>Methods</span><strong>Interviews · Secondary research · Product strategy · Assumption testing</strong></div>
 </div>
-<p class="rec-note"><strong>My individual contributions:</strong> Add your verified responsibilities here (e.g., which interviews, research, diagrams, prototypes, tests, or writing you personally completed). The source documents establish team work but do not attribute these tasks to individuals.</p>
+<div class="rec-role" aria-label="My contribution overview">
+<p class="eyebrow">My role / What I contributed</p>
+<p><strong>Opportunity research · Product outcomes · Service blueprinting · Technical feasibility · Secondary research</strong></p>
+<p>Across our three group assignments, I contributed to the initial problem framing and desired outcomes in Google Docs; research signals on our Assignment #1 FigJam board; the Assignment #2 service blueprint and technical feasibility analysis; and the secondary-source investigation our team called “data mining” in Assignment #3. My role centered on connecting student needs to the proposed service journey and practical implementation constraints. The interviews, surveys, and interactive prototype were collaborative team outputs.</p>
+</div>
 </section>
 <section class="wrap case-section">
 <p class="eyebrow">01 / Opportunity identification</p><h2>The problem wasn't just a crowded gym.</h2>
@@ -37,8 +42,13 @@
 <div class="rec-card"><small>Research finding</small><h3>Not all waiting is equal</h3><p>Some students use alternative equipment, which suggested opportunities for flexible guidance.</p></div>
 </div>
 <p class="rec-highlight">How might Michigan Recreation reduce crowding-related friction for students while improving the use of existing facilities and resources?</p>
-<figure class="rec-artifact"><img src="../assets/recreation/figjam-opportunity.png" alt="Creation Crew FigJam board showing social and cultural trend sticky notes for fitness, wellness, education, and time scarcity, with a selected fitness and wellness opportunity" loading="lazy"><figcaption>Early opportunity exploration on the team's FigJam board. This screenshot is an artifact of research organization, not proof of an implemented product.</figcaption></figure>
-<p><a href="https://www.figma.com/board/kVVASpC7KqgLOuMQEsXW90/Creation-Crew--Service-Blueprint" target="_blank" rel="noopener noreferrer">Explore the team's service blueprint in FigJam ↗</a></p>
+<div class="rec-feature-artifact">
+<p class="eyebrow">My artifact / Assignment 01</p>
+<h3>Finding signals before selecting a solution</h3>
+<p>I contributed to the <strong>“Your Signals”</strong> area of our Assignment #1 FigJam board. These sourced observations included recreation capacity expansion, access constraints and equipment differences between facilities, and changing fitness demand. Together, they helped our team explore an opportunity beyond an isolated workout-planning feature.</p>
+<figure class="rec-artifact"><a href="../assets/recreation/signals-research.jpg" target="_blank" rel="noopener noreferrer"><img src="../assets/recreation/signals-research.jpg" alt="Actual Assignment 1 FigJam Your Signals section showing four sourced research notes about U-M recreation expansion, facility availability, equipment differences, and strength-training demand" loading="lazy"></a><figcaption>Assignment #1 / Opportunity signals. Cropped from the Creation Crew FigJam screenshot. Open image for a closer look.</figcaption></figure>
+<p><a href="https://www.figma.com/board/iN8X7xpOpyi9SOdeCHppZL/SI-511_Team-1?node-id=29-159" target="_blank" rel="noopener noreferrer">Explore our Assignment #1 FigJam board ↗</a></p>
+</div>
 <p class="rec-note">Research limitations: four interviews cannot represent all Michigan Recreation users, and the team did not yet have validated facility-level check-in or equipment usage data.</p>
 </section>
 <section class="wrap case-section">
@@ -51,6 +61,24 @@
 <div class="rec-step"><h3>D. Advanced facility monitoring</h3><p>Explore zone maps, occupancy sensors, and limited machine-level availability monitoring, subject to feasibility and privacy review.</p></div>
 </div>
 <p>Our proposed pilot centered on one facility, using basic occupancy information and busy-time patterns first, with more granular zone or equipment monitoring treated as a riskier later capability.</p>
+<div class="rec-feature-artifact">
+<p class="eyebrow">My artifact / Assignment 02</p>
+<h3>Mapping the service, not just the screen</h3>
+<p>I contributed to our service blueprint in FigJam. It traces six stages—<strong>Decide, Choose, Arrive &amp; Check In, Navigate &amp; Work Out, Leave &amp; Reflect, and Return</strong>—and links customer actions to visible touchpoints, backstage activity, and support processes. This helped us consider what Michigan Recreation would need to operate the experience, not only what students would see.</p>
+<figure class="rec-artifact"><a href="../assets/recreation/service-blueprint.jpg" target="_blank" rel="noopener noreferrer"><img src="../assets/recreation/service-blueprint.jpg" alt="Creation Crew's real FigJam service blueprint matrix with six journey stages, physical evidence, customer actions, frontstage, backstage, support processes, and a pain points table" loading="lazy"></a><figcaption>Assignment #2 / Service blueprint, including frontstage, backstage, support processes and pain points. Open for larger view.</figcaption></figure>
+<p><a href="https://www.figma.com/board/kVVASpC7KqgLOuMQEsXW90/Creation-Crew--Service-Blueprint?node-id=0-1" target="_blank" rel="noopener noreferrer">Explore the full service blueprint in FigJam ↗</a></p>
+</div>
+<div class="rec-feature-artifact">
+<p class="eyebrow">My analysis / Assignment 02</p>
+<h3>Feasibility shaped the rollout</h3>
+<p>My feasibility contribution evaluated the technology and operational dependencies behind the experience. We treated <strong>facility-level crowd estimates</strong> as the most practical starting point, <strong>zone-level monitoring</strong> as moderately feasible, and <strong>machine-level availability</strong> as the riskiest capability requiring a limited pilot. This was a qualitative assessment, not a measured engineering benchmark.</p>
+<div class="rec-feasibility" role="group" aria-label="Qualitative feasibility priorities">
+<div><span><strong>Start with</strong> — facility-level demand</span><p>Explore historical, de-identified MCard check-in data and simple Low / Moderate / Busy estimates.</p></div>
+<div><span><strong>Evaluate next</strong> — workout zones</span><p>Validate data access, sensor accuracy, accessibility, installation, and support needs.</p></div>
+<div><span><strong>Pilot cautiously</strong> — individual machines</span><p>Test a small set of high-demand equipment; show status unavailable if the data cannot be trusted.</p></div>
+</div>
+<p class="rec-note">This phased approach keeps infrastructure, privacy, recurring costs, and data quality visible as product decisions—not assumptions of a completed deployment.</p>
+</div>
 <table class="rec-table"><thead><tr><th>Desired outcome</th><th>How the team proposed evaluating it</th></tr></thead><tbody><tr><td>Student workout efficiency</td><td>Time spent searching or waiting; workout completion</td></tr><tr><td>Facility utilization</td><td>Peak-period congestion and alternative space usage</td></tr><tr><td>Operational decisions</td><td>Staff usefulness ratings and decisions informed by demand data</td></tr></tbody></table>
 <p><strong>Desirability:</strong> evidence of crowding and scheduling difficulties suggested a meaningful problem. <strong>Viability:</strong> Michigan Recreation would need sufficient operational benefits to justify a paid solution. <strong>Feasibility:</strong> existing check-in data and facility-level estimates were more practical starting points than comprehensive machine-level monitoring.</p>
 </section>
@@ -84,20 +112,27 @@
 <div class="rec-step"><h3>02 / Find usable equipment</h3><p>Prioritize the information students identified as a frequent source of frustration.</p></div>
 <div class="rec-step"><h3>03 / Adapt the workout</h3><p>Explore alternatives instead of abandoning the workout or losing time searching.</p></div>
 </div>
-<div class="rec-pending"><strong>Insert the actual SI 511 prototype and your personally narrated walkthrough.</strong><p>The uploaded report references “The Prototype” and “Clickable Demo,” but those embedded document hyperlinks have not yet been supplied here as confirmed public URLs. Add two or three screenshots from the actual prototype and a video of you explaining the problem and presenting the solution to satisfy Option 2. Do not use the separate Lions Services video for this course project.</p></div>
+<div class="rec-demo-links" aria-label="Prototype and presentation links">
+<a class="pill-link" href="https://www.figma.com/make/Ci74vLTROwGwe99DNAeHXa/Smart-Recreation-Experience--Copy-" target="_blank" rel="noopener noreferrer">Explore interactive Figma Make prototype ↗</a>
+<a class="rec-secondary-link" href="https://www.canva.com/design/DAHaeAzjgyo/yrMvKylIgb6DrUJ4vT1rtw/view" target="_blank" rel="noopener noreferrer">Watch team Canva demonstration ↗</a>
+</div>
+<p class="rec-note">The linked prototype is a simulated concept, not live occupancy data. For the Assignment #4 requirement, add a short video of yourself presenting the problem and solution if the team recording does not feature you.</p>
 </section>
 <section class="wrap case-section">
 <p class="eyebrow">05 / Outcomes and reflection</p><h2>A better direction—still a hypothesis to validate.</h2>
 <p><strong>What the team learned:</strong> Equipment friction was common among respondents, and workout changes were already part of their routines. But high problem frequency did not translate into high reported intent to use real-time crowd information. Privacy comfort also outpaced comprehension. Our direction changed accordingly: prioritize useful, actionable information and explain data practices clearly.</p>
 <p><strong>What we did not establish:</strong> We have not shown that the prototype reduces waiting time, increases workout completion, improves facility utilization, or changes Michigan Recreation's operational decisions. Adoption, technical integration, data reliability, accessibility, and institutional willingness to pay require further investigation.</p>
 <p><strong>What comes next:</strong> Conduct task-based testing of the clickable prototype, distinguish what participants actually check from what they merely consider, retest revised privacy explanations, and pilot reliable equipment and crowd signals in one facility before proposing a larger rollout.</p>
-<div class="rec-pending"><strong>Personal reflection — complete in your own voice.</strong><p>State which parts of interviews, FigJam synthesis, business strategy, testing, or prototyping you personally owned. Explain what surprised you about the 2/14 crowd-checking behavior and how that changed your view of a useful product; describe what you would do differently next time. Keep teamwork claims separate from individual work.</p></div>
+<h3>My personal reflection</h3>
+<p>Working on the opportunity signals, service blueprint, and feasibility analysis showed me that a product idea has to make sense from both the student-facing and operational sides. A crowd indicator may look simple in an interface, but behind it are decisions about where data comes from, how current it is, whether students can interpret it, and what staff should do when the information is wrong or unavailable.</p>
+<p>What challenged my initial expectations most was our testing: many students experienced equipment friction, yet only two of fourteen had actively checked gym crowd levels. I learned not to mistake evidence of a problem for evidence that people will adopt the first solution we suggest. The better direction was to make information actionable—help students find usable equipment and adapt their workouts—while still testing whether those features fit their actual routines.</p>
+<p>If I revisited this project, I would work earlier with Michigan Recreation staff to validate data access and operational constraints, clarify in advance what behavior each survey question measures, and test a limited high-demand equipment workflow before recommending more complex monitoring. The work strengthened my ability to connect research signals with realistic service delivery and to treat unvalidated ideas as hypotheses rather than results.</p>
 </section>
 <section class="wrap case-section credits">
 <p class="eyebrow">Credits and sources</p><h2>Built with Creation Crew.</h2>
-<p><strong>Team:</strong> Rose Williams, Nkwachukwu Onwudiwe, Candice Jones, and Richa Jagadish Rao. Add confirmed portfolio links to each person's name.</p>
+<p><strong>Team:</strong> Rose Williams, Nkwachukwu Onwudiwe, Candice Jones, and Richa Jagadish Rao. Teammate portfolio links can be added when available.</p>
 <p><strong>Course:</strong> SI 511 Product Discovery, Fall 2026. Sources include Group Submission #1: Opportunity Identification, Group Submission #2: Product Vision and Strategy, and Group Submission #3: Assumption Mapping, Testing, &amp; Prototypes (including survey results and prototype synthesis).</p>
-<p class="rec-note">This page is an editable draft. Verify all statements, add your personally narrated demo, confirm links and personalize your reflection before using as the final Assignment #4 submission.</p>
+
 </section>
 </main>
 <footer class="wrap foot"><span>© 2026 Nkwa Onwudiwe</span><span><a href="../index.html#work">Back to selected work ↗</a></span></footer>

@@ -1,14 +1,15 @@
-MICHIGAN RECREATION PORTFOLIO CASE STUDY — UPDATED WITH ASSIGNMENT #3 RESULTS
+MICHIGAN RECREATION PORTFOLIO — UPDATED RESEARCH ARTIFACTS
 
-Upload projects/michigan-recreation.html to the projects/ directory of your existing GitHub Pages repository, and assets/recreation/figjam-opportunity.png to assets/recreation/. Uses existing ../css/style.css.
+Upload these files to your existing GitHub repository, preserving the paths:
 
-Before final submission:
-1. Add your actual, verified SI 511 clickable prototype URL and a demo of YOU explaining the problem and solution.
-2. Add real screenshots from that prototype.
-3. Replace individual-contribution placeholder with your exact role and rewrite personal reflection.
-4. Add teammate portfolio URLs, if available.
-5. Update index.html to link to projects/michigan-recreation.html.
-6. Cross-check survey numbers and criteria against your original reports; the source has inconsistent thresholds.
-7. Do not portray proposed facility metrics as achieved results.
+  projects/michigan-recreation.html     (REPLACE existing file)
+  assets/recreation/signals-research.jpg       (NEW)
+  assets/recreation/service-blueprint.jpg      (NEW)
 
-NOTE: This package is NOT yet live and has not altered your GitHub repository.
+You do not need to edit index.html or css/style.css. The page uses your existing style sheet and additional scoped styling inside its own <style> block.
+
+The page includes links to both original FigJam boards, and your existing Figma Make prototype and Canva recording.
+
+Before submitting: verify the new images render; verify board access and playback; record a video personally explaining the problem and solution if your Canva video does not show you; double-check the reflection is accurate; and add team portfolio URLs if available.
+
+You can also open the HTML locally for reading, but stylesheet navigation works correctly only when used within your existing repository's full folder structure.
